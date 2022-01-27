@@ -1,0 +1,39 @@
+.login-section{
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 5px rgb(214, 214, 214);
+  border: none;
+}
+
+.register-container{
+    width: 600px;
+}
+
+.github-btn{
+  background-color: rgb(0, 0, 0) !important;
+  border: none;
+}
+.google-btn{
+  background-color:#eb0f5d !important;
+  border: none;
+}
+
+.login-title{
+    color: #eb0f5d;
+}
+
+button {
+  background-color:#eb0f5d;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+ 
+}
+
+.login-title{
+    color: #eb0f5d;
+}

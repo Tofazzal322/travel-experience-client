@@ -1,0 +1,15 @@
+.menu-bg{
+    /* background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); */
+    background-color:	#242121;
+}
+
+.login-btn{
+    
+    width: 100%;
+    border: none;
+    background-color:#0a0a0a ;
+    color: white;
+    font-weight: 700;
+    padding: 7px 10px;
+    border-radius: 5px;
+}

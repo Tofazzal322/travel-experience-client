@@ -1,0 +1,16 @@
+.menu-bg{
+    /* background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); */
+    background-color:	#242121;
+}
+.nav-items-btn{
+    text-decoration: none;
+    border: none;
+    background-color:#ffe6e6;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-weight: 900;
+}
+
+.navigation-bar-main{
+    
+}

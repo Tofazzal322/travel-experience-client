@@ -1,0 +1,105 @@
+form {
+    border: 3px solid #f1f1f1;
+border-radius: 15px 15px 0px 0px ;
+}
+.container {
+  padding: 16px;
+}
+.login-section{
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 5px rgb(214, 214, 214);
+  border: none;
+}
+
+.register-container{
+    width: 600px;
+}
+
+.create-btn{
+    width: 100% !important;
+}
+
+.github-btn{
+  background-color: rgb(0, 0, 0) !important;
+  border: none;
+}
+.google-btn{
+  background-color:#eb0f0f ;
+  border: none;
+}
+
+button {
+  background-color:#042055;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+ 
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.login-title{
+    color: #eb0f5d;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.cancelbtn {
+  width: auto;
+  border-radius: 2px;
+  padding: 5px 10px;
+  background-color: #ffd000;
+  font-weight: 400;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 30%;
+  border-radius: 50%;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+.github-btn-text{
+  margin: 0 !important;
+  padding: 0 !important;
+  justify-content: center;
+}
+
+.google-github-btn{
+  margin-left: auto;
+  
+}
