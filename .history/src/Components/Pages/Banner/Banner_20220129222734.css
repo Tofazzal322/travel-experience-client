@@ -1,0 +1,10 @@
+.banner-main{
+    margin-top: 0 !important;
+    background-color: antiquewhite;
+}
+
+.banner-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}

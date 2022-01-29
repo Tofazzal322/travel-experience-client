@@ -2,8 +2,8 @@ import React from 'react';
 import { Col, Row } from "react-bootstrap";
 import images1 from "../../../images/blog_66-200x200.jpg";
 import images2 from "../../../images/blog_23-200x200.jpg";
-import images3 from "../../../images/blog_52-220x175.jpg";
-import images4 from "../../../images/blog_60-160x117.jpg";
+import images3 from "../../../images/blog_66-200x200.jpg";
+import images4 from "../../../images/blog_66-200x200.jpg";
 import "./Banner.css";
 
 const Banner = () => {
@@ -15,8 +15,8 @@ const Banner = () => {
             <img className="banner-img" src={images1} alt="" />
           </Col>
           <Col className="text-size">
-             <p className="bg-warning text-light w-50 px-1 rounded mt-3 ">
-                  EUROPE
+             <p className="bg-primary text-light w-50 px-1 rounded mt-3 ">
+                  Europe
                 </p>
             <p className="fw-bold">How to get the best deal</p>
           <div className="text-secondary">
@@ -31,7 +31,7 @@ const Banner = () => {
           </Col>
           <Col className="text-size">
              <p className="bg-primary text-light w-50 px-1 rounded mt-3 ">
-                  AMERICA
+                  Europe
                 </p>
             <p className="fw-bold">How to get the best deal</p>
             <div className="text-secondary">
@@ -45,8 +45,8 @@ const Banner = () => {
             <img className="banner-img" src={images3} alt="" />
           </Col>
           <Col className="text-size">
-             <p className="bg-success text-light w-50 px-1 rounded mt-3 ">
-                  CANADA
+             <p className="bg-primary text-light w-50 px-1 rounded mt-3 ">
+                  Europe
                 </p>
             <p className="fw-bold">How to get the best deal</p>
             <div className="text-secondary">
@@ -60,8 +60,8 @@ const Banner = () => {
             <img className="banner-img" src={images4} alt="" />
           </Col>
           <Col className="text-size">
-             <p className="bg-secondary text-light w-50 px-1 rounded mt-3 ">
-                  AFRICA
+             <p className="bg-primary text-light w-50 px-1 rounded mt-3 ">
+                  Europe
                 </p>
             <p className="fw-bold">How to get the best deal</p>
            <div className="text-secondary">
