@@ -27,7 +27,7 @@ const Banner = () => {
         </Col>
         <Col className="" md={3}>
           <Col className="text-size d-flex my-2 ">
-            <img className="banner-img mt-3" src={images2} alt="" />
+            <img className="banner-img mt-3" src={images1} alt="" />
             <div className="ms-4">
               <p className="bg-warning text-light w-50 px-1 rounded mt-3 ">
                 AMERICA
@@ -42,7 +42,7 @@ const Banner = () => {
         </Col>
         <Col className="" md={3}>
           <Col className="text-size d-flex my-2 ">
-            <img className="banner-img mt-3" src={images3} alt="" />
+            <img className="banner-img mt-3" src={images1} alt="" />
             <div className="ms-4">
               <p className="bg-success text-light w-50 px-1 rounded mt-3 ">
                 CANADA
@@ -57,7 +57,7 @@ const Banner = () => {
         </Col>
         <Col className="" md={3}>
           <Col className="text-size d-flex my-2 ">
-            <img className="banner-img mt-3" src={images4} alt="" />
+            <img className="banner-img mt-3" src={images1} alt="" />
             <div className="ms-4">
               <p className="bg-primary text-light w-50 px-1 rounded mt-3 ">
                 AFRICA
@@ -70,6 +70,7 @@ const Banner = () => {
             </div>
           </Col>
         </Col>
+       
       </Row>
     </div>
   );

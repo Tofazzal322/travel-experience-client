@@ -28,7 +28,9 @@ function App() {
   return (
     
     <AuthProvider>
-    
+      <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
         <NavigationBar></NavigationBar>
         <Routes>
           <Route path="/" element={<Home />} />

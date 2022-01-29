@@ -28,7 +28,7 @@ function App() {
   return (
     
     <AuthProvider>
-    
+      
         <NavigationBar></NavigationBar>
         <Routes>
           <Route path="/" element={<Home />} />

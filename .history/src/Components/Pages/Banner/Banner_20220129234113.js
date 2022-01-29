@@ -9,12 +9,12 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <div className="banner-main">
-      <Row className="mt-3 container-fluid">
+      <Row className="mt-3">
         <Col className="" md={3}>
           <Col className="text-size d-flex my-2 ">
             <img className="banner-img mt-3" src={images1} alt="" />
             <div className="ms-4">
-              <p className="bg-danger text-light w-50 px-1 rounded mt-3 ">
+              <p className="bg-warning text-light w-50 px-1 rounded mt-3 ">
                 EUROPE
               </p>
               <p className="fw-bold">How to get the best deal</p>
@@ -27,7 +27,7 @@ const Banner = () => {
         </Col>
         <Col className="" md={3}>
           <Col className="text-size d-flex my-2 ">
-            <img className="banner-img mt-3" src={images2} alt="" />
+            <img className="banner-img mt-3" src={images1} alt="" />
             <div className="ms-4">
               <p className="bg-warning text-light w-50 px-1 rounded mt-3 ">
                 AMERICA
@@ -42,9 +42,9 @@ const Banner = () => {
         </Col>
         <Col className="" md={3}>
           <Col className="text-size d-flex my-2 ">
-            <img className="banner-img mt-3" src={images3} alt="" />
+            <img className="banner-img mt-3" src={images1} alt="" />
             <div className="ms-4">
-              <p className="bg-success text-light w-50 px-1 rounded mt-3 ">
+              <p className="bg-warning text-light w-50 px-1 rounded mt-3 ">
                 CANADA
               </p>
               <p className="fw-bold">How to get the best deal</p>
@@ -57,10 +57,10 @@ const Banner = () => {
         </Col>
         <Col className="" md={3}>
           <Col className="text-size d-flex my-2 ">
-            <img className="banner-img mt-3" src={images4} alt="" />
+            <img className="banner-img mt-3" src={images1} alt="" />
             <div className="ms-4">
-              <p className="bg-primary text-light w-50 px-1 rounded mt-3 ">
-                AFRICA
+              <p className="bg-warning text-light w-50 px-1 rounded mt-3 ">
+                EUROPE
               </p>
               <p className="fw-bold">How to get the best deal</p>
               <div className="text-secondary">
@@ -70,6 +70,7 @@ const Banner = () => {
             </div>
           </Col>
         </Col>
+       
       </Row>
     </div>
   );

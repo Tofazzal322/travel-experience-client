@@ -28,7 +28,15 @@ function App() {
   return (
     
     <AuthProvider>
-    
+      module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
         <NavigationBar></NavigationBar>
         <Routes>
           <Route path="/" element={<Home />} />

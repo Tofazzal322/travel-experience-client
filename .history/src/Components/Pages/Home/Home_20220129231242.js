@@ -21,7 +21,7 @@ const Home = () => {
                 <p className="bg-primary text-light w-25 px-1 rounded mt-3 ">
                   Europe
                 </p>
-                <h3 className='p-md'>
+                <h3>
                   African Nation Are Struggling <br /> To Save Their Wildlife
                 </h3>
                 <small> BY ADMIN</small> <small> JANUARY 21,2022</small>
