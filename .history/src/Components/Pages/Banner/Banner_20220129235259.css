@@ -1,0 +1,14 @@
+.banner-main{
+    margin-top: -15px;
+    background-color: antiquewhite;
+}
+
+.banner-img{
+    width: 100px;
+    height: 1px;
+    border-radius: 50%;
+}
+
+.text-size{
+    font-size: 12px;
+}
